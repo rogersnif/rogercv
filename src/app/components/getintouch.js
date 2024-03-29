@@ -7,7 +7,7 @@ export default function Getintouch() {
     <>
       <div className="bg-white flex flex-col items-center  justify-center">
         <motion.div
-          initial={{ opacity: 0, x: -200 }}
+          initial={{ opacity: 0, x: -300 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ ease: "linear", duration: 0.5 }}
           animate={{ opacity: 1 }}
@@ -21,7 +21,7 @@ export default function Getintouch() {
             <div className=" w-[100%]">
               <p className="text-[18px] lg:text-[23px]">
                 Excited to contribute as a junior developer, equipped with
-                skills in HTML, CSS, JavaScript,React, Next, MongoDB, Mongoose,
+                skills in HTML, CSS, JavaScript, React, Next, MongoDB, Mongoose,
                 and Firebase. Let&apos;s embark on a journey of innovation and
                 growth together.
               </p>
@@ -80,6 +80,15 @@ export default function Getintouch() {
               />
             </form>
           </div>
+        </div>
+        <div className=" mt-[10%]  w-[100%]">
+          <a
+            href="/Roger_CV.pdf"
+            download
+            className=" py-1 pl-5 md:pl-[7%] text-gray-800  underline font-semibold"
+          >
+            Download CV
+          </a>
         </div>
         <br />
         <br />

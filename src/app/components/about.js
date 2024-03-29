@@ -89,7 +89,7 @@ export default function About() {
       id="about"
     >
       <motion.div
-        initial={{ opacity: 0, x: -200 }}
+        initial={{ opacity: 0, x: -300 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ ease: "linear", duration: 0.5 }}
         animate={{ opacity: 1 }}

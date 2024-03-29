@@ -85,16 +85,20 @@ const MenuButton = () => {
                   GET IN TOUCH
                 </motion.a>
               </Link>
+
+              <a
+                href="/Roger_CV.pdf"
+                download
+                className="block py-1 px-4 text-gray-800 hover:bg-gray-200 underline"
+              >
+                Download CV
+              </a>
             </motion.div>
           )}
         </AnimatePresence>
       </div>
 
-      {/* <div className="hidden md:flex flex-row justify-end w-[30%]  z-50 gap-5">
-        <img src="/linkedin.svg" alt="linked" className="w-[30px] h-[30px]" />
-        <img src="/facebook.svg" alt="linked" className="w-[30px] h-[30px]" />
-        <img src="/github.svg" alt="linked" className="w-[30px] h-[30px]" />
-      </div> */}
+    
     </motion.div>
   );
 };

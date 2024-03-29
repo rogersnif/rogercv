@@ -24,7 +24,7 @@ export default function Section1() {
               <p>JUNIOR FULLSTACK WEB DEVELOPER</p>
             </div>
             <Link to={"about"} smooth={true} duration={500}>
-              <button className="px-3  py-2 md:px-5  md:py-3  border-2 font-semibold mt-10 text-white border-[#515251] flex flex-row items-center justify-center gap-2 hover:border-[#1dff92]">
+              <button className="px-3  py-2 md:px-5  md:py-3  border-2 font-semibold mt-10 text-white border-[#1dff9257] flex flex-row items-center justify-center gap-2 hover:border-[#1dff92]">
                 MORE ABOUT ME
                 <img src="/down.svg" alt="down" className="w-[15px] h-[15px]" />
               </button>
@@ -37,9 +37,23 @@ export default function Section1() {
           transition={{ ease: "linear", duration: 1, delay: 1 }}
           className=" mb-10 md:mb-0 flex flex-row justify-end  md:justify-center z-50 gap-10 "
         >
-          <img src="/linkedin.svg" alt="linked" className="w-[30px] h-[30px]" />
-          <img src="/facebook.svg" alt="linked" className="w-[30px] h-[30px]" />
-          <img src="/github.svg" alt="linked" className="w-[30px] h-[30px]" />
+          <a href="https://www.linkedin.com/in/roger-banze-1650461b6/">
+            <img
+              src="/linkedin.svg"
+              alt="linked"
+              className="w-[30px] h-[30px]"
+            />
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100091063895936">
+            <img
+              src="/facebook.svg"
+              alt="facebook"
+              className="w-[30px] h-[30px]"
+            />
+          </a>
+          <a href="https://github.com/rogersnif">
+            <img src="/github.svg" alt="git" className="w-[30px] h-[30px]" />
+          </a>
         </motion.div>
       </section>
     </>
