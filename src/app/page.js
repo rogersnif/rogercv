@@ -5,6 +5,7 @@ import Projects from "./components/projects";
 import Rate from "./components/rate";
 import Section1 from "./components/section1";
 import Skills from "./components/skills";
+import Testemonial from "./components/testemonial";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Skills />
       <Rate />
       <Getintouch />
+      <Testemonial />
 
       <Footer />
     </main>
