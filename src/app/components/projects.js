@@ -70,13 +70,17 @@ export default function Projects() {
           transition={{ ease: "linear", duration: 0.5 }}
           animate={{ opacity: 1 }}
           className="flex flex-col items-center justify-center  h-[300px] md:w-[100%] md:h-[300px]  projects"
-        ></motion.div>
-        <div className="container flex flex-wrap px-5  md:px-[10%]   mx-auto items-center">
-          <div className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200">
+        >
+          <p className="text-[25px] text-[#40c183] font-bold">
+            RECENT PROJECTS
+          </p>
+        </motion.div>
+        <div className="container   md:flex-row px-5    md:px-[10%]   mx-auto items-center">
+          <div className="">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
               My current projects
             </h1>
-            <p className="leading-relaxed text-base">
+            <p className="leading-relaxed text-">
               The first project is a plant search and details about plants,
               powered by Next.js, Mongoose, Tailwind CSS, and Framer Motion,
               hinting at the future of plant scanning. Additionally, an
@@ -87,48 +91,22 @@ export default function Projects() {
               representation of legal practice.
             </p>
           </div>
-          <div className="flex flex-col md:w-1/2 md:pl-12">
-            <h2 className="title-font font-semibold text-gray-800 tracking-wider text-sm mb-3">
-              TECHNOLOGY USE
-            </h2>
-            <nav className="flex flex-row list-none -mb-1 justify-around ">
-              <div className="px-10">
-                <li className="lg:w-1/1 mb-1 w-1/1">
-                  <a href="#" className="text-gray-600 hover:text-gray-800">
-                    Html
-                  </a>
-                </li>
-                <li className="lg:w-1/1 mb-1 w-1/1">
-                  <a href="#" className="text-gray-600 hover:text-gray-800">
-                    Css
-                  </a>
-                </li>
+          <div className="w-[70%] md-[50%] py-10 text-md">
+            <h2 className="text-gray-900 p-5 text-lg">TECHNOLOGY USE</h2>
+            <div className="flex flex-row justify-around">
+              <div className="">
+                <p>Html</p>
+                <p>Css</p>
               </div>
-              <div className="px-10">
-                <li className="lg:w-1/1 mb-1 w-1/1">
-                  <a href="#" className="text-gray-600 hover:text-gray-800">
-                    JavasCript
-                  </a>
-                </li>
-                <li className="lg:w-1/1 mb-1 w-1/1">
-                  <a href="#" className="text-gray-600 hover:text-gray-800">
-                    Next.js
-                  </a>
-                </li>
+              <div className="">
+                <p>JavasCript</p>
+                <p>Next.js</p>
               </div>
-              <div className="px-10">
-                <li className="lg:w-1/1 mb-1 w-1/1">
-                  <a href="#" className="text-gray-600 hover:text-gray-800">
-                    Node.js
-                  </a>
-                </li>
-                <li className="lg:w-1/1 mb-1 w-1/1">
-                  <a href="#" className="text-gray-600 hover:text-gray-800">
-                    Firebase
-                  </a>
-                </li>
+              <div>
+                <p>Node.js</p>
+                <p>Firebase</p>
               </div>
-            </nav>
+            </div>
           </div>
         </div>
       </section>

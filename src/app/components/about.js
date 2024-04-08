@@ -90,15 +90,15 @@ export default function About() {
         <div className="container px-5 py-24 mx-auto flex flex-col">
           <div className="lg:w-4/6 mx-auto">
             <div className="rounded-lg h-64 overflow-hidden">
-              <motion.img
-                initial={{ opacity: 0, x: -300 }}
+              <motion.div
+                initial={{ opacity: 0, x: -200 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ ease: "linear", duration: 0.5 }}
                 animate={{ opacity: 1 }}
-                alt="content"
-                className="object-contain object-center h-full w-full"
-                src="/about.jpg"
-              />
+                className="flex flex-col items-center  justify-center  w-[100%] h-[300px] md:w-[30%] md:h-[300px] md:ml-[10%] about"
+              >
+                <p className="text-[25px] text-[#40c183] font-bold">ABOUT ME</p>
+              </motion.div>
             </div>
             <div className="flex flex-col sm:flex-row mt-20">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
@@ -113,16 +113,16 @@ export default function About() {
                   <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
                     Poger Banze
                   </h2>
-                  <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
-                  <p className="text-base">
-                    With unwavering dedication, I&apos;ve cultivated my skills as a
-                    self-taught web developer
+                  <div className="w-12 h-1 bg-green-600 rounded mt-2 mb-4"></div>
+                  <p className="text-md px-5">
+                    With unwavering dedication, I&apos;ve cultivated my skills
+                    as a self-taught web developer
                   </p>
                 </div>
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left ">
                 <p
-                  className="leading-relaxed text-lg mb-4 overflow-y-hidden"
+                  className="leading-relaxed text-md mb-4 overflow-y-hidden"
                   style={{
                     maxHeight: showMore ? "none" : "250px",
                     transition: "max-height 0.5s ease",
@@ -165,7 +165,7 @@ export default function About() {
                 </p>
                 <button
                   href="#"
-                  className="text-indigo-500 inline-flex items-center"
+                  className="text-green-600 inline-flex items-center"
                   onClick={toggleShowMore}
                 >
                   {showMore ? "Show Less" : "Show More..."}

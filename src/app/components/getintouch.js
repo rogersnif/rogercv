@@ -90,13 +90,28 @@ export default function Getintouch() {
         <br />
       </div> */}
 
-      <section className="text-gray-600 body-font relative bg-white">
-        <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
-          <div className="lg:w-2/3 md:w-1/2 bg-gray-100 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative getintouchbac">
-            <div className=" flex flex-col  items-between  h-[auto]  w-[100%] lg:h-[auto]  justify-between px-[5%] lg:px-[0%] ">
-              <div className=" w-[100%]">
-                <p className="text-[25px] text-white font-bold">GET IN TOUCH</p>
-                <p className="text-[17px] lg:text-[20px] leading-relaxed  text-white">
+      <section
+        className="text-gray-600 body-font relative bg-white "
+        id="getintouch"
+      >
+        <motion.div
+          initial={{ opacity: 0, x: -300 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ ease: "linear", duration: 0.5 }}
+          animate={{ opacity: 1 }}
+          className="flex flex-col items-center  justify-center w-[80%] lg:w-[500px] h-[300px]  md:h-[300px] md:ml-[10%] getintouch"
+          id="skills"
+        >
+          <p className="text-[25px] text-[#40c183] font-bold">GET IN TOUCH</p>
+        </motion.div>
+        <div className="container px-10 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+          <div className="lg:w-2/2 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 p-5 flex items-end justify-start relative getintouchbac bg-[#080f1b]">
+            <div className=" flex flex-col  items-between  h-[auto]  w-[100%] lg:h-[auto]  justify-between  lg:px-[0%] ">
+              <div className=" w-[100%]  bg-slate-900 px-5">
+                <p className="text-[25px] text-green-600 font-bold pt-3">
+                  GET IN TOUCH
+                </p>
+                <p className="text-[17px] lg:text-[20px] leading-relaxed  text-slate-400">
                   Excited to contribute as a junior developer, equipped with
                   skills in HTML, CSS, JavaScript, React, Next, MongoDB,
                   Mongoose, and Firebase. Let&apos;s embark on a journey of
@@ -108,6 +123,7 @@ export default function Getintouch() {
               {/* <button className="w-[100%] py-5 bg-[#080f1b] mt-[30%] text-white">
                 Hire me
               </button> */}
+
               <div className="bg-white  flex flex-wrap py-6 rounded shadow-md">
                 <div className="lg:w-1/2 px-6">
                   <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
@@ -125,7 +141,7 @@ export default function Getintouch() {
                   </h2>
                   <a
                     href="mailto:example@email.com"
-                    className="text-indigo-500 leading-relaxed"
+                    className="text-green-600 leading-relaxed"
                   >
                     rogerbanze@gmail.com
                   </a>
@@ -153,7 +169,7 @@ export default function Getintouch() {
                 type="text"
                 id="name"
                 name="name"
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
             <div className="relative mb-4">
@@ -167,7 +183,7 @@ export default function Getintouch() {
                 type="email"
                 id="email"
                 name="email"
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full bg-white rounded border border-gray-300 focus:green-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
             <div className="relative mb-4">
@@ -180,10 +196,10 @@ export default function Getintouch() {
               <textarea
                 id="message"
                 name="message"
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                className="w-full bg-white rounded border border-gray-300 focus:green-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               ></textarea>
             </div>
-            <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            <button className="text-white bg-green-800 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
               SUBMIT
             </button>
 

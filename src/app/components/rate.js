@@ -1,4 +1,4 @@
-"use client"
+"use client";
 export default function Rate() {
   return (
     // <div className="bg-white text-center px-[5%] md:px-[20%]">
@@ -20,7 +20,7 @@ export default function Rate() {
     //   <br />
     // </div>
 
-    <section className="text-gray-700 body-font bg-slate-200">
+    <section className="text-gray-700 body-font bg-slate-100">
       <div className="container px-5 py-24 mx-auto">
         <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
           <svg
@@ -35,12 +35,10 @@ export default function Rate() {
             As a junior web developer, I am not only seeking permanent
             employment opportunities but also open to freelance projects. For
             freelance work, employer can engage based on my established rate
-            prices
-            <span className="text-[green]"> ( R75 / Hour ) </span>
-            upon discussion of the project requirements I will provide a
+            prices upon discussion of the project requirements I will provide a
             detailed estimate of the time it will take to finish the task.
           </p>
-          <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+          <span className="inline-block h-1 w-10 rounded bg-green-500 mt-8 mb-6"></span>
           <p className="text-[20px] pt-10 font-bold">WHAT I CAN DO</p> <br />
           <p className="text-gray-600">
             Website development, Hosting, SEO, and Maintenance.
