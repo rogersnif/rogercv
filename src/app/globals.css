@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body {
-  background-image: url("/bac1.jpg");
+  background-image: url("/bac2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -63,7 +63,7 @@ body {
   background-position: center;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 709px) {
   /* CSS rules specific to small mobile screens */
   /* For example: */
 

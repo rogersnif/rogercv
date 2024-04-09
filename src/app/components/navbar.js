@@ -21,7 +21,7 @@ const MenuButton = () => {
       <div>
         <motion.button
           onClick={toggleMenu}
-          className="bg-[#080f1b] text-white w-[200px] h-[50px] rounded focus:outline-none flex items-center px-5"
+          className="bg-[#172b4e] text-white w-[200px] h-[50px] rounded focus:outline-none flex items-center px-5"
           whileHover={{ scale: 1.05 }}
         >
           <svg className="w-8 h-8" viewBox="0 0 24 24">
@@ -97,8 +97,6 @@ const MenuButton = () => {
           )}
         </AnimatePresence>
       </div>
-
-    
     </motion.div>
   );
 };

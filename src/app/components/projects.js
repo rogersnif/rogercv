@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const projects = [
   {
@@ -8,27 +9,27 @@ const projects = [
     imageSrc: "green.png", // Replace with your image source
     description:
       "Plant searching app , powered by Next.js Tailwind Framer-motion and Mongoose",
-    link: "/project1", // Replace with your project link
+    link: "https://plantk.vercel.app/", // Replace with your project link
   },
   {
     id: 2,
     imageSrc: "ingenier.jpeg",
     description:
       " Engineer portfolio , powered by Next.js Tailwind Framer-motion ",
-    link: "/project2",
+    link: "https://my-nextproject-civilengeneer.vercel.app/",
   },
   {
     id: 2,
     imageSrc: "norkay.jpeg",
     description:
       " Local construction company wep app , powered by Next.js Tailwind Framer-motion ",
-    link: "/project2",
+    link: "https://www.norkay.co.za/",
   },
   {
     id: 2,
     imageSrc: "lowyer.png",
     description: " Lawyer portfolio build with html, css,js ",
-    link: "/project2",
+    link: "https://coach-lemon.vercel.app/",
   },
 
   // Add more projects as needed
@@ -80,7 +81,7 @@ export default function Projects() {
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
               My current projects
             </h1>
-            <p className="leading-relaxed text-">
+            <p className="leading-relaxed text-gray-600">
               The first project is a plant search and details about plants,
               powered by Next.js, Mongoose, Tailwind CSS, and Framer Motion,
               hinting at the future of plant scanning. Additionally, an
@@ -97,14 +98,17 @@ export default function Projects() {
               <div className="">
                 <p>Html</p>
                 <p>Css</p>
+                <p>tailwind</p>
               </div>
               <div className="">
-                <p>JavasCript</p>
+                <p>JS </p>
+                <p>React</p>
                 <p>Next.js</p>
               </div>
               <div>
                 <p>Node.js</p>
                 <p>Firebase</p>
+                <p>Mogodb</p>
               </div>
             </div>
           </div>
@@ -113,22 +117,23 @@ export default function Projects() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 md:gap-10 w-[90%]  md:w-[80%] ">
         {projects.map((project) => (
-          <motion.a
-            key={project.id}
-            href={project.link}
+          <motion.div
             className="relative overflow-hidden rounded-lg shadow-lg "
             whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.9 }}
+            whileTap={{ scale: 0.5 }}
+            key={project.id}
           >
-            <img
-              src={project.imageSrc}
-              alt="Project"
-              className="w-full h-auto"
-            />
-            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 transition-opacity opacity-0 hover:opacity-100">
-              <p className="text-white text-center">{project.description}</p>
-            </div>
-          </motion.a>
+            <Link href={project.link}>
+              <img
+                src={project.imageSrc}
+                alt="Project"
+                className="w-full h-auto  "
+              />
+              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 transition-opacity opacity-0 hover:opacity-100">
+                <p className="text-white text-center">{project.description}</p>
+              </div>
+            </Link>
+          </motion.div>
         ))}
       </div>
       <br />

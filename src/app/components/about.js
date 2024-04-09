@@ -95,7 +95,7 @@ export default function About() {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ ease: "linear", duration: 0.5 }}
                 animate={{ opacity: 1 }}
-                className="flex flex-col items-center  justify-center  w-[100%] h-[300px] md:w-[30%] md:h-[300px] md:ml-[10%] about"
+                className="flex flex-col items-center  justify-center  w-[100%] h-[300px]  md:h-[300px] md:ml-[10%] about"
               >
                 <p className="text-[25px] text-[#40c183] font-bold">ABOUT ME</p>
               </motion.div>
@@ -114,7 +114,7 @@ export default function About() {
                     Poger Banze
                   </h2>
                   <div className="w-12 h-1 bg-green-600 rounded mt-2 mb-4"></div>
-                  <p className="text-md px-5">
+                  <p className="text-md px-5 text-[#000d1d]">
                     With unwavering dedication, I&apos;ve cultivated my skills
                     as a self-taught web developer
                   </p>
@@ -122,7 +122,7 @@ export default function About() {
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left ">
                 <p
-                  className="leading-relaxed text-md mb-4 overflow-y-hidden"
+                  className="leading-relaxed text-md mb-4 overflow-y-hidden text-gray-600"
                   style={{
                     maxHeight: showMore ? "none" : "250px",
                     transition: "max-height 0.5s ease",

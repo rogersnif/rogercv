@@ -91,7 +91,7 @@ export default function Getintouch() {
       </div> */}
 
       <section
-        className="text-gray-600 body-font relative bg-white "
+        className="text-gray-600 body-font relative bg-white pt-52 "
         id="getintouch"
       >
         <motion.div
@@ -99,18 +99,15 @@ export default function Getintouch() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ ease: "linear", duration: 0.5 }}
           animate={{ opacity: 1 }}
-          className="flex flex-col items-center  justify-center w-[80%] lg:w-[500px] h-[300px]  md:h-[300px] md:ml-[10%] getintouch"
+          className="flex flex-col items-center  justify-center w-[100%] lg:w-[100%] h-[200px]  md:h-[200px] md:ml-[10%] getintouch "
           id="skills"
         >
           <p className="text-[25px] text-[#40c183] font-bold">GET IN TOUCH</p>
         </motion.div>
-        <div className="container px-10 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
-          <div className="lg:w-2/2 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 p-5 flex items-end justify-start relative getintouchbac bg-[#080f1b]">
+        <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+          <div className="lg:w-2/2 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 p-5 flex items-end justify-start relative getintouchbac bg-[#172b4e]">
             <div className=" flex flex-col  items-between  h-[auto]  w-[100%] lg:h-[auto]  justify-between  lg:px-[0%] ">
-              <div className=" w-[100%]  bg-slate-900 px-5">
-                <p className="text-[25px] text-green-600 font-bold pt-3">
-                  GET IN TOUCH
-                </p>
+              <div className=" w-[100%] md:bg-slate-900 p-3">
                 <p className="text-[17px] lg:text-[20px] leading-relaxed  text-slate-400">
                   Excited to contribute as a junior developer, equipped with
                   skills in HTML, CSS, JavaScript, React, Next, MongoDB,
