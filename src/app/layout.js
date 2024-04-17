@@ -63,7 +63,7 @@ export const metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-    Sitemap: "https://www.plantk.org/sitemap.xml",
+    Sitemap: "https://www.webfuturize.org/sitemap.xml",
   },
   manifest: "/site.webmanifest",
 };
