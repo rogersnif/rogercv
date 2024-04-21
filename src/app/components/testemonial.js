@@ -30,9 +30,9 @@ export default function Testemonial() {
                 />
                 <span className="flex-grow flex flex-col pl-4">
                   <span className="title-font font-medium text-gray-900">
-                    Holden Caulfield
+                    Name
                   </span>
-                  <span className="text-gray-500 text-sm">UI DEVELOPER</span>
+                  <span className="text-gray-500 text-sm">Manager</span>
                 </span>
               </a>
             </div>
@@ -60,9 +60,9 @@ export default function Testemonial() {
                 />
                 <span className="flex-grow flex flex-col pl-4">
                   <span className="title-font font-medium text-gray-900">
-                    Alper Kamu
+                    Name
                   </span>
-                  <span className="text-gray-500 text-sm">DESIGNER</span>
+                  <span className="text-gray-500 text-sm">Manager</span>
                 </span>
               </a>
             </div>

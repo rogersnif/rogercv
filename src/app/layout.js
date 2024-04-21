@@ -2,9 +2,10 @@ import "./globals.css";
 import Navbar from "./components/navbar";
 
 export const metadata = {
-  title: "Plants discovery",
-  description: "Junior web developer Portfolio",
-  keywords: "porTfolio",
+  title: "Web Developer",
+  description:
+    "i'm Junior Fullstack web developer with passion on condig and design",
+  keywords: "porTfolio, web developer",
   author: "Roger Banze",
 
   icons: [

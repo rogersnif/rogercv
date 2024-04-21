@@ -120,7 +120,7 @@ export default function Projects() {
           <motion.div
             className="relative overflow-hidden rounded-lg shadow-lg "
             whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.5 }}
+            whileTap={{ scale: 0.9 }}
             key={project.id}
           >
             <Link href={project.link}>
