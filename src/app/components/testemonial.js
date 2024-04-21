@@ -25,14 +25,16 @@ export default function Testemonial() {
               <a className="inline-flex items-center">
                 <img
                   alt="testimonial"
-                  src="https://dummyimage.com/106x106"
+                  src="/profilechar.png"
                   className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                 />
                 <span className="flex-grow flex flex-col pl-4">
                   <span className="title-font font-medium text-gray-900">
                     Name
                   </span>
-                  <span className="text-gray-500 text-sm">Manager</span>
+                  <span className="text-gray-500 text-sm">
+                    Shop Manager at NadLux
+                  </span>
                 </span>
               </a>
             </div>
@@ -55,14 +57,16 @@ export default function Testemonial() {
               <a className="inline-flex items-center">
                 <img
                   alt="testimonial"
-                  src="https://dummyimage.com/107x107"
+                  src="/profilepascal.png"
                   className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                 />
                 <span className="flex-grow flex flex-col pl-4">
                   <span className="title-font font-medium text-gray-900">
                     Name
                   </span>
-                  <span className="text-gray-500 text-sm">Manager</span>
+                  <span className="text-gray-500 text-sm">
+                    Student At Cambridge Univ
+                  </span>
                 </span>
               </a>
             </div>
